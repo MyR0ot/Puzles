@@ -1,5 +1,74 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.aps
+*.pch
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.sbr
+*.res
+*.exp
+*.vshost.*
+*.opensdf
+*.sdf
+*.cache
+*.bak
+*.log
+*.ipch
+*.aps
+*.bsc
+*.mdf
+*.ldf
+*.orig
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.sbr
+*.res
+*.exp
+*.vshost.*
+*.opensdf
+*.sdf
+*.cache
+*.bak
+*.log
+*.ipch
 
-/.vs
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.mdb
+*.xml
+*.pdb
+*.ilk
+*.idb
+*.obj
+*.lib
+*.exp
+*.vshost.*
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Temporary files
+Temp/
+*.tmp
+*.temp
+
+# Resharper files
+*.resharper
+
+# User-specific settings
+*.csproj.user
+*.sln.user
