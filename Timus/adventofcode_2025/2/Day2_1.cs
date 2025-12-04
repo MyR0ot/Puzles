@@ -41,7 +41,7 @@ namespace Timus.adventofcode._2
             Console.WriteLine(result); // 9188031749
         }
 
-        private bool IsInvalidID(Int64 id)
+        private static bool IsInvalidID(Int64 id)
         {
             var str = id.ToString();
 
