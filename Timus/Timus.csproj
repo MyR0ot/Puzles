@@ -8,28 +8,28 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="adventofcode\1\input.txt">
+    <None Update="adventofcode_2025\1\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\1\test.txt">
+    <None Update="adventofcode_2025\1\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\2\input.txt">
+    <None Update="adventofcode_2025\2\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\2\test.txt">
+    <None Update="adventofcode_2025\2\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\3\input.txt">
+    <None Update="adventofcode_2025\3\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\3\test.txt">
+    <None Update="adventofcode_2025\3\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\4\input.txt">
+    <None Update="adventofcode_2025\4\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="adventofcode\4\test.txt">
+    <None Update="adventofcode_2025\4\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

@@ -10,8 +10,8 @@ namespace Timus.adventofcode._2
     {
         public void Main()
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode/2/input.txt");
-            // string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode/2/test.txt");
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/2/input.txt");
+            // string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/2/test.txt");
 
             var content = File.ReadAllText(filePath);
 

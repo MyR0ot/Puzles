@@ -10,8 +10,8 @@ namespace Timus.adventofcode._4
     {
         public void Main()
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode/4/input.txt");
-            //string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode/4/test.txt");
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/4/input.txt");
+            // string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/4/test.txt");
 
             List<List<char>> matrix = new List<List<char>>();
 

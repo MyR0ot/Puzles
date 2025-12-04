@@ -11,9 +11,9 @@ namespace Timus.adventofcode
 
         public void Main()
         {
-            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode/1/input.txt");
-            //string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode/1/test.txt");
-            
+            string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/1/input.txt");
+            // string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/1/test.txt");
+
             var lines = File.ReadAllLines(filePath);
 
             int curCursorValue = 50;
