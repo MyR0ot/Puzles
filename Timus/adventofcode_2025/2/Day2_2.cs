@@ -8,7 +8,7 @@ namespace Timus.adventofcode._2
 {
     internal class Day2_2
     {
-        public void Main()
+        public static void Main()
         {
             string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/2/input.txt");
             // string filePath = Path.Combine(Directory.GetCurrentDirectory(), "adventofcode_2025/2/test.txt");

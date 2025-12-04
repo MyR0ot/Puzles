@@ -12,7 +12,7 @@ namespace Puzles.timus
     /// </summary>
     public class _1306
     {
-        public void Main()
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             List<ulong> numbers = new List<ulong>(n);

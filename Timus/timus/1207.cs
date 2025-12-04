@@ -20,7 +20,7 @@ namespace Puzles.timus
             public int Number;
         }
 
-        public void Main()
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 
