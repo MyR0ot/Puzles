@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Timus
+namespace Puzles.timus
 {
     /// <summary>
     /// 1052. Охота на зайцев
@@ -34,7 +34,7 @@ namespace Timus
             }
 
             var sortedPoints = points.OrderBy(p => p.X).ThenBy(p => p.Y).ToList();
-            var specialPoint = new Point() { X = sortedPoints[0].X, Y = sortedPoints[0].Y+1, Number = 0 };
+            var specialPoint = new Point() { X = sortedPoints[0].X, Y = sortedPoints[0].Y + 1, Number = 0 };
 
             var otherPoints = sortedPoints.Skip(1).OrderBy(p => GetCosA(sortedPoints[0], specialPoint, p)).ToList();
 

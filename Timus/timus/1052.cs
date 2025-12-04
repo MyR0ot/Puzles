@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Timus
+namespace Puzles.timus
 {
     /// <summary>
     /// 1052. Охота на зайцев

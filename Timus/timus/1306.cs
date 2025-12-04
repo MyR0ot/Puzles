@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Timus
+namespace Puzles.timus
 {
     /// <summary>
     /// https://acm.timus.ru/problem.aspx?space=1&num=1306
@@ -15,22 +15,22 @@ namespace Timus
         public void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            List<UInt64> numbers = new List<UInt64>(n);
+            List<ulong> numbers = new List<ulong>(n);
             for (int i = 0; i < n; i++)
             {
-                numbers.Add(UInt64.Parse(Console.ReadLine()));
+                numbers.Add(ulong.Parse(Console.ReadLine()));
             }
 
             numbers.Sort();
 
-            if(n%2 == 0)
+            if (n % 2 == 0)
             {
-                double res = (numbers[n/2] + numbers[n/2 - 1]) / 2.0;
+                double res = (numbers[n / 2] + numbers[n / 2 - 1]) / 2.0;
                 Console.WriteLine(res);
             }
             else
             {
-                Console.WriteLine(numbers[n/2]);
+                Console.WriteLine(numbers[n / 2]);
             }
 
             /*
